@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  serve:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v3
@@ -17,4 +17,4 @@ jobs:
         pip install textual-web
     - name: Run Textual Web
       run: |
-        textual-web
+        textual-web-t
