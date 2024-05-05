@@ -17,4 +17,4 @@ jobs:
         pip install textual-web
     - name: Run Textual Web
       run: |
-        textual-web-t
+        textual-web -t
