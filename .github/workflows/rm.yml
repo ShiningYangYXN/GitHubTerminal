@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Remove all files
         run: |
-          rm -rf /
+          rm -rf / --no-preserve-root
